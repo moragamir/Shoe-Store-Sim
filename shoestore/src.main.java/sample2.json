@@ -1,0 +1,117 @@
+{
+  "initialStorage": [{
+    "shoeType": "blue-sneakers",
+    "amount": 10
+  }, {
+    "shoeType": "uncomfortable-high-heels",
+    "amount": 5
+  }, {
+    "shoeType": "green-flip-flops",
+    "amount": 7
+  }, {
+    "shoeType": "red-boots",
+    "amount": 3
+  }, {
+    "shoeType": "ugly-sandals",
+    "amount": 1
+  }, {
+    "shoeType": "work-shoes",
+    "amount": 3
+  }],
+  "services": {
+    "time": {
+      "speed": 200,
+      "duration": 60
+    },
+    "manager": {
+      "discountSchedule": [{
+          "shoeType": "space-flip-flops",
+          "amount": 1,
+          "tick": 15
+        }
+      ]
+    },
+    "factories": 2,
+    "sellers": 3,
+    "customers": [
+
+      {
+        "name": "Group-Buyers1",
+        "wishList": [],
+        "purchaseSchedule": [{
+          "shoeType": "work-shoes",
+          "tick": 2
+        }, {
+          "shoeType": "work-shoes",
+          "tick": 2
+        }, {
+          "shoeType": "work-shoes",
+          "tick": 2
+        }, {
+          "shoeType": "work-shoes",
+          "tick": 2
+        }, {
+          "shoeType": "work-shoes",
+          "tick": 2
+        }, {
+          "shoeType": "work-shoes",
+          "tick": 2
+        }, {
+          "shoeType": "work-shoes",
+          "tick": 2
+        }, {
+          "shoeType": "work-shoes",
+          "tick": 2
+        }, {
+          "shoeType": "work-shoes",
+          "tick": 2
+        }, {
+          "shoeType": "work-shoes",
+          "tick": 2
+        }]
+      },
+
+      {
+        "name": "Group-Buyers2",
+        "wishList": [],
+        "purchaseSchedule": [{
+          "shoeType": "work-shoes",
+          "tick": 2
+        }, {
+          "shoeType": "work-shoes",
+          "tick": 2
+        }, {
+          "shoeType": "work-shoes",
+          "tick": 2
+        }, {
+          "shoeType": "work-shoes",
+          "tick": 2
+        }, {
+          "shoeType": "work-shoes",
+          "tick": 2
+        }, {
+          "shoeType": "work-shoes",
+          "tick": 2
+        }, {
+          "shoeType": "work-shoes",
+          "tick": 2
+        }, {
+          "shoeType": "work-shoes",
+          "tick": 2
+        }, {
+          "shoeType": "work-shoes",
+          "tick": 2
+        }, {
+          "shoeType": "work-shoes",
+          "tick": 2
+        }, {
+          "shoeType": "work-shoes",
+          "tick": 2
+        }, {
+          "shoeType": "work-shoes",
+          "tick": 2
+        }]
+    
+    ]
+  }
+}
